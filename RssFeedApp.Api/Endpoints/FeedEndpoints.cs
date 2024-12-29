@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
-using RssFeedApp.Api.Models;
+﻿using RssFeedApp.Api.Models;
 using RssFeedApp.Api.Services.FeedService;
 
 namespace RssFeedApp.Api.Endpoints;
@@ -10,7 +9,7 @@ public static class FeedEndpoints
     {
         endpoints
             .MapGet("/all", async (IFeedService feedServices) => await feedServices.GetAll())
-            .Produces<Task<Results<Ok<ICollection<RssFeed>>, NotFound>>>()
+            .Produces<Task<ICollection<RssFeed>>>()
             .WithDescription("Get all feeds")
             .WithOpenApi();
         

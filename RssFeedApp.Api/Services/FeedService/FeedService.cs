@@ -21,7 +21,7 @@ public class FeedService(
             Title = feed.Title,
             Link = feed.Link,
             Description = feed.Description,
-            Items = feed.Items.Where(item => item.PublishDate >= DateTime.Now.AddDays(-1)).ToList()
+            Items = feed.Items.Where(item => item?.PublishDate >= DateTime.Now.AddDays(-1)).ToList()
         })
         .ToList());
     
