@@ -1,0 +1,22 @@
+{
+  "Description": "This file contains the configuration options for the RSS feed app.",
+  "FeedsFile": "feeds.json",
+  "PullIntervalHours": 24,
+  "Sources": [
+    {
+      "Name": "The New York Times",
+      "Url": "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "Tag": "news"
+    },
+    {
+      "Name": "The Washington Post",
+      "Url": "http://feeds.washingtonpost.com/rss/national",
+      "Tag": "news"
+    },    
+    {
+      "Name": "Test Feed",
+      "Url": "https://lorem-rss.herokuapp.com/feed",
+      "Tag": "testtag"
+    }
+  ]
+}

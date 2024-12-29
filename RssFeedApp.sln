@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssFeedApp.Api", "RssFeedApp.Api\RssFeedApp.Api.csproj", "{6664841B-756B-4BAC-AB9C-34F5D4C2444B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6664841B-756B-4BAC-AB9C-34F5D4C2444B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6664841B-756B-4BAC-AB9C-34F5D4C2444B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6664841B-756B-4BAC-AB9C-34F5D4C2444B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6664841B-756B-4BAC-AB9C-34F5D4C2444B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

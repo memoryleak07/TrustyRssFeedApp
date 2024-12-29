@@ -1,0 +1,383 @@
+[
+  {
+    "Tag": "news",
+    "Title": "NYT \u003E Top Stories",
+    "Description": "",
+    "Link": "https://www.nytimes.com/",
+    "Items": [
+      {
+        "Title": "Jimmy Carter, 39th U.S. President, Is Dead at 100",
+        "Summary": "Rising from Georgia farmland to the White House, he oversaw the historic Camp David peace accords, but his one-term presidency was waylaid by troubles at home and abroad.",
+        "PublishDate": "2024-12-29T22:11:42Z",
+        "Link": "https://www.nytimes.com/2024/12/29/us/politics/jimmy-carter-dead.html",
+        "Content": ""
+      },
+      {
+        "Title": "Anger and Agony in South Korea After Jeju Air Passenger Jet Crashes, Killing 179",
+        "Summary": "A Jeju Air passenger jet carrying 181 people from Bangkok sped off the runway and burst into flames. Two crew were rescued in what was the country\u2019s worst air disaster in decades.",
+        "PublishDate": "2024-12-29T17:06:55Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/asia/south-korea-plane-crash-jeju.html",
+        "Content": ""
+      },
+      {
+        "Title": "What to Know About South Korea\u2019s Worst Plane Crash in Decades",
+        "Summary": "A plane carrying 181 people crashed while landing, killing most on board. Officials were investigating a possible malfunction with the landing gear and a bird strike.",
+        "PublishDate": "2024-12-29T22:10:33Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/asia/what-to-know-south-korea-plane-crash.html",
+        "Content": ""
+      },
+      {
+        "Title": "Video of South Korea Plane Crash Offers Clues to Cause, but No Immediate Answers",
+        "Summary": "The cause of the crash probably won\u2019t be determined for months, with investigators expected to focus on a wide range of issues.",
+        "PublishDate": "2024-12-29T21:07:35Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/asia/plane-crash-video-south-korea.html",
+        "Content": ""
+      },
+      {
+        "Title": "Bird Strikes Are a Common Problem for Flights",
+        "Summary": "It is not uncommon for planes to strike wildlife, but most episodes don\u2019t result in deaths or serious injuries.",
+        "PublishDate": "2024-12-29T19:42:44Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/asia/bird-strike-plane-crash.html",
+        "Content": ""
+      },
+      {
+        "Title": "Israel Struggles to Halt Attacks From Houthis in Yemen, Once Off Radar",
+        "Summary": "Even as battles with its enemies on its borders appear to be winding down, Israel is being challenged by intensifying attacks by the Houthi militia in Yemen, 1,000 miles away.",
+        "PublishDate": "2024-12-29T16:41:10Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/middleeast/israel-houthis-yemen.html",
+        "Content": ""
+      },
+      {
+        "Title": "Departing Air Force Secretary Will Leave Space Weaponry as a Legacy",
+        "Summary": "Frank Kendall, who grew up on an apple farm and then rose to the pinnacle of the U.S. military, has preached the need for better preparation for the next big fight.",
+        "PublishDate": "2024-12-29T14:38:46Z",
+        "Link": "https://www.nytimes.com/2024/12/29/us/politics/frank-kendall-air-force.html",
+        "Content": ""
+      },
+      {
+        "Title": "How Shen Yun Tapped Religious Fervor to Make $266 Million",
+        "Summary": "The dance group has accumulated enormous wealth, in large part by getting followers of the Falun Gong religious movement to work for free and pay its bills.",
+        "PublishDate": "2024-12-29T08:00:14Z",
+        "Link": "https://www.nytimes.com/2024/12/29/nyregion/shen-yun-money-falun-gong.html",
+        "Content": ""
+      },
+      {
+        "Title": "The Comfortable Problem of Mid TV",
+        "Summary": "It\u2019s got a great cast. It looks cinematic. It\u2019s, um \u2026 fine. And it\u2019s everywhere.",
+        "PublishDate": "2024-04-27T09:02:55Z",
+        "Link": "https://www.nytimes.com/2024/04/27/arts/television/mid-tv.html",
+        "Content": ""
+      },
+      {
+        "Title": "Can the Government Get People to Have More Babies?",
+        "Summary": "Japan has been trying to boost its fertility rate for 30 years. Now the rest of the rich world is, too.",
+        "PublishDate": "2024-10-13T15:08:54Z",
+        "Link": "https://www.nytimes.com/2024/10/13/world/asia/birth-rate-fertility-policy-japan.html",
+        "Content": ""
+      },
+      {
+        "Title": "Champions of Degrowth Want to Shrink the Economy to Save the World.",
+        "Summary": "Economic growth has been ecologically costly \u2014 and so a movement in favor of \u2018degrowth\u2019 is growing.",
+        "PublishDate": "2024-06-08T09:02:35Z",
+        "Link": "https://www.nytimes.com/2024/06/08/books/review/shrink-the-economy-save-the-world.html",
+        "Content": ""
+      },
+      {
+        "Title": "From \u2018Wicked\u2019 to Elon Musk, How Americans Learned to Root for the Supervillain",
+        "Summary": "How Americans learned to root for the dark side \u2014 from the Joker and \u201CWicked\u201D to Elon Musk.",
+        "PublishDate": "2024-11-23T10:02:48Z",
+        "Link": "https://www.nytimes.com/2024/11/23/books/review/supervillains-joker-elon-musk-wicked.html",
+        "Content": ""
+      },
+      {
+        "Title": "JD Vance and the Restoration of the \u2018New Right\u2019",
+        "Summary": "JD Vance and his allies represent a mind-set that dates back to the McCarthy era and the dawn of the Cold War.",
+        "PublishDate": "2024-08-10T09:02:52Z",
+        "Link": "https://www.nytimes.com/2024/08/10/magazine/jd-vance-new-right-republicans.html",
+        "Content": ""
+      },
+      {
+        "Title": "The Misguided War on the SAT",
+        "Summary": "Colleges have fled standardized tests, on the theory that they hurt diversity. That\u2019s not what the research shows.",
+        "PublishDate": "2024-01-07T10:02:00Z",
+        "Link": "https://www.nytimes.com/2024/01/07/briefing/the-misguided-war-on-the-sat.html",
+        "Content": ""
+      },
+      {
+        "Title": "Is That Drink Worth It to You?",
+        "Summary": "Alcohol is riskier than previously thought, but weighing the trade-offs of health risks can be deeply personal.",
+        "PublishDate": "2024-06-18T21:26:17Z",
+        "Link": "https://www.nytimes.com/2024/06/15/magazine/alcohol-health-risks.html",
+        "Content": ""
+      },
+      {
+        "Title": "The Vexing Problem of the \u2018Medium Friend\u2019",
+        "Summary": "They\u2019re not our besties, but they\u2019re more than just acquaintances. How much of ourselves do we owe them?",
+        "PublishDate": "2024-06-22T09:00:56Z",
+        "Link": "https://www.nytimes.com/2024/06/22/well/the-vexing-problem-of-the-medium-friend.html",
+        "Content": ""
+      },
+      {
+        "Title": "Charles Dolan, Cablevision and HBO Founder, Dies at 98",
+        "Summary": "His business choices were diverse and prolific: He founded HBO, bought Madison Square Garden and the New York Knicks, and took over a Long Island newspaper.",
+        "PublishDate": "2024-12-29T19:52:24Z",
+        "Link": "https://www.nytimes.com/2024/12/29/business/charles-dolan-dead.html",
+        "Content": ""
+      },
+      {
+        "Title": "Azerbaijan Blames Russia for Plane Crash and Rebukes Kremlin",
+        "Summary": "The leader of Azerbaijan criticized the Russian response to the crash of a passenger jet that Azerbaijani officials said had most likely been hit by Russian air defenses.",
+        "PublishDate": "2024-12-29T14:59:56Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/europe/azerbaijan-blames-russia-plane-crash.html",
+        "Content": ""
+      },
+      {
+        "Title": "How a Diagnosis of Shaken Baby Syndrome Could Send Innocent Parents to Jail",
+        "Summary": "The controversial medical diagnosis of shaken baby syndrome can send parents to jail. What if the symptoms are caused by something else?",
+        "PublishDate": "2024-12-29T17:58:49Z",
+        "Link": "https://www.nytimes.com/2024/12/29/magazine/shaken-baby-syndrome-diagnosis.html",
+        "Content": ""
+      },
+      {
+        "Title": "Inside a Sinaloa Cartel Fentanyl Lab in Mexico",
+        "Summary": "New York Times reporters witnessed the dangerous fentanyl production process inside a secret lab in Culiac\u00E1n run by Mexico\u2019s most powerful criminal syndicate.",
+        "PublishDate": "2024-12-29T15:15:16Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/americas/inside-fentanyl-lab-mexico.html",
+        "Content": ""
+      },
+      {
+        "Title": "How Mexican Cartels Test Fentanyl on Vulnerable People and Animals",
+        "Summary": "A global crackdown on fentanyl has led cartels to innovate production methods and test their risky formulas on people, as well as rabbits and chickens.",
+        "PublishDate": "2024-12-26T23:40:49Z",
+        "Link": "https://www.nytimes.com/2024/12/26/world/americas/mexican-cartels-test-fentanyl.html",
+        "Content": ""
+      },
+      {
+        "Title": "How TSMC\u2019s Arizona Chip Plant Seeded a Tiny Taipei in the Desert",
+        "Summary": "Taiwan Semiconductor Manufacturing Company, a global tech giant, brought thousands of workers from Asia to the Phoenix suburbs for jobs at a plant that the Biden administration helped fund.",
+        "PublishDate": "2024-12-29T10:00:15Z",
+        "Link": "https://www.nytimes.com/2024/12/29/business/tsmc-phoenix-taiwan.html",
+        "Content": ""
+      },
+      {
+        "Title": "A North Carolina Family Built Its Own Little Town. Hurricane Helene Killed 11 of Them.",
+        "Summary": "The extended Craig family has suffered an unthinkable loss after landslides slammed into their North Carolina town during Hurricane Helene. The survivors are trying to move forward.",
+        "PublishDate": "2024-12-29T08:00:21Z",
+        "Link": "https://www.nytimes.com/2024/12/29/us/hurricane-helene-craigtown-north-carolina-deaths.html",
+        "Content": ""
+      },
+      {
+        "Title": "Bob Dylan on Film: A Guide to the Movies\u2019 True Shapeshifter",
+        "Summary": "The singer-songwriter was never only a creature of music. Our critic watched every film with him that she could find to better understand the artist.",
+        "PublishDate": "2024-12-29T14:14:05Z",
+        "Link": "https://www.nytimes.com/2024/12/29/movies/bob-dylan-movies.html",
+        "Content": ""
+      },
+      {
+        "Title": "America Needs More Jimmy Carters",
+        "Summary": "He was a model ex-president and achieved a great deal in office.",
+        "PublishDate": "2024-12-29T21:38:37Z",
+        "Link": "https://www.nytimes.com/2024/12/29/opinion/editorials/jimmy-carter-death-editorial.html",
+        "Content": ""
+      },
+      {
+        "Title": "Jimmy Carter\u2019s Life Was One Big Trust Exercise",
+        "Summary": "What the 39th president did before he got to the White House is as interesting as what came after.",
+        "PublishDate": "2024-12-29T22:02:39Z",
+        "Link": "https://www.nytimes.com/2024/12/29/opinion/jimmy-carter-plains-georgia-early-years.html",
+        "Content": ""
+      },
+      {
+        "Title": "Residents Turn to Home Lifting In Response to the Threat of Flooding",
+        "Summary": "As climate change intensifies, flooding is emerging as a threat for homes not previously seen as high-risk. Some residents are responding creatively by lifting up their homes.",
+        "PublishDate": "2024-12-27T10:00:36Z",
+        "Link": "https://www.nytimes.com/2024/12/27/realestate/home-lifts-flooding-climate-change.html",
+        "Content": ""
+      },
+      {
+        "Title": "Ignoring Warnings, a Growing Band of Tourists Venture to Afghanistan",
+        "Summary": "With the war now over, the Taliban are welcoming foreign travelers, even as governments advise their citizens to stay away.",
+        "PublishDate": "2024-12-29T13:15:57Z",
+        "Link": "https://www.nytimes.com/2024/12/29/world/asia/afghanistan-taliban-tourism.html",
+        "Content": ""
+      },
+      {
+        "Title": "Warren Upton, Pearl Harbor Survivor, Dies at 105",
+        "Summary": "The last survivor of the U.S.S. Utah, he was a 22-year-old Navy radioman when Japanese forces attacked.",
+        "PublishDate": "2024-12-29T15:45:53Z",
+        "Link": "https://www.nytimes.com/2024/12/29/us/warren-upton-dead.html",
+        "Content": ""
+      },
+      {
+        "Title": "New York Raises These Pheasants to Be Shot. Is It Hunting or Cruelty?",
+        "Summary": "Some lawmakers hope to end a program that is meant to introduce children to field sports but that critics say makes the birds easy targets, if they don\u2019t die another way.",
+        "PublishDate": "2024-12-29T09:02:48Z",
+        "Link": "https://www.nytimes.com/2024/12/29/nyregion/new-york-pheasant-stocking-bill.html",
+        "Content": ""
+      },
+      {
+        "Title": "Sharing the Spotlight on Their Wedding Day",
+        "Summary": "Stephanie Morrison and Scott Platt weren\u2019t the center of attention at their wedding. Instead, they shared the day with Ms. Morrison\u2019s beloved aunt, who suffers from a rare condition.",
+        "PublishDate": "2024-12-27T16:44:32Z",
+        "Link": "https://www.nytimes.com/2024/12/27/style/stephanie-morrison-scott-platt-wedding.html",
+        "Content": ""
+      }
+    ]
+  },
+  {
+    "Tag": "news",
+    "Title": "National",
+    "Description": "The Washington Post\u0027s national news coverage. Get the latest national news, featuring national security, science and the courts. Read breaking national news headlines from across the U.S.",
+    "Link": "https://www.washingtonpost.com/",
+    "Items": [
+      {
+        "Title": "How Jimmy Carter helped build 4,390 homes with Habitat for Humanity",
+        "Summary": "Carter, who died on XX at the age of 98, made his volunteer work building affordable and decent housing for Habitat for Humanity a significant part of his legacy.",
+        "PublishDate": "2024-12-29T22:05:25Z",
+        "Link": "https://www.washingtonpost.com/history/2024/12/29/jimmy-carter-habitat-for-humanity/",
+        "Content": ""
+      },
+      {
+        "Title": "11 facts about Jimmy Carter that may surprise you",
+        "Summary": "The peanut farmer-turned-president, who died Sunday at 100, put solar panels on the White House and once spent 89 seconds inside a melting nuclear reactor.",
+        "PublishDate": "2024-12-29T22:00:55Z",
+        "Link": "https://www.washingtonpost.com/nation/2024/12/29/jimmy-carter-facts-surprising/",
+        "Content": ""
+      },
+      {
+        "Title": "His work after the White House made Jimmy Carter a standout",
+        "Summary": "The former president traveled the globe for more than four decades to raise houses, health, peace and democracy.",
+        "PublishDate": "2024-12-29T21:14:20Z",
+        "Link": "https://www.washingtonpost.com/obituaries/2024/12/29/legacy-jimmy-carter/",
+        "Content": ""
+      },
+      {
+        "Title": "Video shows New York corrections staff beat inmate hours before he died",
+        "Summary": "The New York attorney general released body camera video of corrections officers beating a handcuffed inmate hours before he died.",
+        "PublishDate": "2024-12-29T04:13:07Z",
+        "Link": "https://www.washingtonpost.com/nation/2024/12/28/officers-beat-inmate-new-york-prison/",
+        "Content": ""
+      },
+      {
+        "Title": "Oklahoma AG drops charge against officer who threw 71-year-old to ground",
+        "Summary": "The prosecutor who charged the police officer with assault said she was \u201Csurprised and disappointed\u201D by the Oklahoma attorney general\u2019s decision.\n",
+        "PublishDate": "2024-12-29T02:55:29Z",
+        "Link": "https://www.washingtonpost.com/nation/2024/12/28/assault-charges-dropped-police-elderly/",
+        "Content": ""
+      },
+      {
+        "Title": "\u2018Baby in a dumpster.\u2019 A spate of abandoned newborns unsettles Texas.",
+        "Summary": "Critics say these cases are no coincidence in a state with one of the nation\u2019s most restrictive abortion bans and near-bottom rankings on women\u2019s health care.",
+        "PublishDate": "2024-12-28T11:00:00Z",
+        "Link": "https://www.washingtonpost.com/nation/2024/12/28/abandoned-baby-texas-abortion-ban/",
+        "Content": ""
+      },
+      {
+        "Title": "Should Mega Millions jackpot winners take a lump-sum payout or annuity?",
+        "Summary": "Experts say winners should generally take the money in annuities, but that\u2019s not what most people do. ",
+        "PublishDate": "2024-12-28T06:02:27Z",
+        "Link": "https://www.washingtonpost.com/nation/2024/12/27/mega-millions-jackpot-annuity-lump-sum/",
+        "Content": ""
+      },
+      {
+        "Title": "$1.22 billion Mega Millions jackpot won in California",
+        "Summary": "The winning numbers were 3, 7, 37, 49 and 55. The Mega Ball was 6. The jackpot is the fifth-biggest ever in the Mega Millions lotteries.",
+        "PublishDate": "2024-12-28T05:52:29Z",
+        "Link": "https://www.washingtonpost.com/nation/2024/12/28/mega-millions-jackpot-winner-california/",
+        "Content": ""
+      },
+      {
+        "Title": "Bird flu kills 20 big cats at Washington sanctuary now under quarantine",
+        "Summary": "A big cat sanctuary in Washington is temporarily closed and quarantined after bird flu killed 20 wild cats there, including cougars, bobcats and a tiger.",
+        "PublishDate": "2024-12-28T03:38:19Z",
+        "Link": "https://www.washingtonpost.com/health/2024/12/27/washington-big-cat-sanctuary-bird-flu/",
+        "Content": ""
+      },
+      {
+        "Title": "TikTok prankster jailed for spraying groceries with pesticides for clicks",
+        "Summary": "Social media influencer Charles Smith faces a felony charge for spraying bug spray on produce at an Arizona Walmart and recording the incident for viral content.",
+        "PublishDate": "2024-12-28T01:59:12Z",
+        "Link": "https://www.washingtonpost.com/nation/2024/12/27/influencer-walmart-pesticide-prank/",
+        "Content": ""
+      }
+    ]
+  },
+  {
+    "Tag": "testtag",
+    "Title": "Lorem ipsum feed for an interval of 1 minutes with 10 item(s)",
+    "Description": "This is a constantly updating lorem ipsum feed",
+    "Link": "http://example.com/",
+    "Items": [
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:15:00Z",
+        "Summary": "Aute amet cupidatat amet exercitation reprehenderit ut consequat cillum amet enim exercitation eiusmod qui consectetur.",
+        "PublishDate": "2024-12-29T22:15:00Z",
+        "Link": "http://example.com/test/1735510500",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:14:00Z",
+        "Summary": "Exercitation ullamco nostrud consequat amet nisi.",
+        "PublishDate": "2024-12-29T22:14:00Z",
+        "Link": "http://example.com/test/1735510440",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:13:00Z",
+        "Summary": "Quis sit mollit tempor in aliqua anim nulla est.",
+        "PublishDate": "2024-12-29T22:13:00Z",
+        "Link": "http://example.com/test/1735510380",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:12:00Z",
+        "Summary": "Irure enim labore duis voluptate ipsum tempor officia dolor magna eu enim culpa irure.",
+        "PublishDate": "2024-12-29T22:12:00Z",
+        "Link": "http://example.com/test/1735510320",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:11:00Z",
+        "Summary": "Minim pariatur officia mollit nulla do elit enim consectetur Lorem et.",
+        "PublishDate": "2024-12-29T22:11:00Z",
+        "Link": "http://example.com/test/1735510260",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:10:00Z",
+        "Summary": "Elit cupidatat voluptate velit do dolor id voluptate consequat officia est elit velit nostrud.",
+        "PublishDate": "2024-12-29T22:10:00Z",
+        "Link": "http://example.com/test/1735510200",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:09:00Z",
+        "Summary": "Elit velit do minim veniam pariatur anim reprehenderit consequat pariatur.",
+        "PublishDate": "2024-12-29T22:09:00Z",
+        "Link": "http://example.com/test/1735510140",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:08:00Z",
+        "Summary": "Aliqua dolor enim laboris mollit do ad quis.",
+        "PublishDate": "2024-12-29T22:08:00Z",
+        "Link": "http://example.com/test/1735510080",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:07:00Z",
+        "Summary": "Quis labore aliquip ea exercitation sit irure sint.",
+        "PublishDate": "2024-12-29T22:07:00Z",
+        "Link": "http://example.com/test/1735510020",
+        "Content": ""
+      },
+      {
+        "Title": "Lorem ipsum 2024-12-29T22:06:00Z",
+        "Summary": "Eu aute ad ullamco excepteur.",
+        "PublishDate": "2024-12-29T22:06:00Z",
+        "Link": "http://example.com/test/1735509960",
+        "Content": ""
+      }
+    ]
+  }
+]

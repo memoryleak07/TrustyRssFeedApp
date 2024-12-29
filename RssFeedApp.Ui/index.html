@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusty</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="dark">
+<header class="dark">
+    <h1>Trusty</h1>
+    <div class="theme-switcher">
+        <label>
+            <input type="checkbox" id="themeToggle"> Light Theme
+        </label>
+    </div>
+</header>
+<div class="container">
+    <label for="rssUrl"></label>
+    <input type="text" id="rssUrl" placeholder="Enter RSS feed URL" value="http://localhost:5149/all">
+    <button id="fetchBtn">Fetch</button>
+    <ul id="feed"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

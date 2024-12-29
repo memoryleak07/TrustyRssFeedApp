@@ -1,0 +1,186 @@
+﻿/* Base styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+    background-color: #f9f9f9;
+    color: #121212;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+header.light {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.theme-switcher {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 80px 20px 20px;
+    box-sizing: border-box;
+}
+
+/* Input styles */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    box-sizing: border-box;
+}
+
+.light input[type="text"] {
+    background-color: #ffffff;
+    border-color: #ddd;
+    color: #121212;
+}
+
+/* Button styles */
+button {
+    padding: 12px 24px;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a5a5a;
+}
+
+button:disabled {
+    background-color: #333;
+    cursor: not-allowed;
+}
+
+/* Feed styles */
+#feed {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#feed li {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.light #feed li {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* #feed li:hover {
+    transform: translateY(-2px);
+} */
+
+#feed li h2 {
+    margin: 0 0 10px 0;
+}
+
+#feed li a {
+    color: #4a9eff;
+    text-decoration: none;
+}
+
+#feed li a:hover {
+    text-decoration: underline;
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+    margin-right: 5px;
+    accent-color: #1a1a1a;
+}
+body.light input[type="checkbox"] {
+    accent-color: #4a4a4a;
+}
+
+.date {
+    color: #888;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.error {
+    color: #ff4444;
+    padding: 10px;
+    border-left: 4px solid #ff4444;
+    background-color: rgba(255, 68, 68, 0.1);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    .theme-switcher {
+        font-size: 0.9rem;
+        padding-right: 10px;
+    }
+    
+    .container {
+        padding: 70px 15px 15px;
+    }
+    
+    #feed li {
+        padding: 15px;
+    }
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
