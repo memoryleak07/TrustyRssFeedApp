@@ -1,28 +1,16 @@
 ﻿using RssFeedApp.Api.Models;
+using RssFeedApp.Api.Models.Base;
 using RssFeedApp.Api.Services.FeedService;
 
 namespace RssFeedApp.Api.Endpoints;
 
 public static class FeedEndpoints
 {
-    public static void MapFeedEndpoints(this IEndpointRouteBuilder endpoints)
+    public static void MapFeedEndpoints(this WebApplication app)
     {
-        endpoints
-            .MapGet("/all", async (IFeedService feedServices) => await feedServices.GetAll())
-            .Produces<Task<ICollection<RssFeed>>>()
-            .WithDescription("Get all feeds")
-            .WithOpenApi();
-        
-        endpoints
-            .MapGet("/last24", async (IFeedService feedServices) => await feedServices.GetLast24())
-            .Produces<ICollection<RssFeed>>()
-            .WithDescription("Get last 24 hours feeds")
-            .WithOpenApi();
-        
-        endpoints
-            .MapGet("/all/{tag}", async (IFeedService feedServices, string tag) => await feedServices.GetByTag(tag))
-            .Produces<ICollection<RssFeed>>()
-            .WithDescription("Get feeds by tag")
+        app.MapGet("/search", async (IFeedService feedServices, string? query, int pageIndex = 0, int pageSize = 10)
+            => Results.Ok(new ResultBase<Pagination<RssFeed>>(await feedServices.Search(query, pageIndex, pageSize))))
+            .WithDescription("Search feeds")
             .WithOpenApi();
     }
 }

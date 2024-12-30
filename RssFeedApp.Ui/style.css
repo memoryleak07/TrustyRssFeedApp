@@ -117,9 +117,9 @@ button:disabled {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* #feed li:hover {
+#feed li:hover {
     transform: translateY(-2px);
-} */
+}
 
 #feed li h2 {
     margin: 0 0 10px 0;
@@ -134,13 +134,9 @@ button:disabled {
     text-decoration: underline;
 }
 
-/* Checkbox styles */
+/* Checkbox hided */
 input[type="checkbox"] {
-    margin-right: 5px;
-    accent-color: #1a1a1a;
-}
-body.light input[type="checkbox"] {
-    accent-color: #4a4a4a;
+    display:none;
 }
 
 .date {

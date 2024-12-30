@@ -25,8 +25,8 @@ public class PullTimedService(
         logger.LogInformation("PullTimedService running. Interval is {Interval} hours.",
             options.Value.PullIntervalHours);
         
-        _timer = new Timer(DoWork, null, TimeSpan.Zero,
-            TimeSpan.FromHours(options.Value.PullIntervalHours));
+        // _timer = new Timer(DoWork, null, TimeSpan.Zero,
+        //     TimeSpan.FromHours(options.Value.PullIntervalHours));
 
         return Task.CompletedTask;
     }

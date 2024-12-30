@@ -1,10 +1,11 @@
 // Theme switcher logic
 const themeToggle = document.getElementById('themeToggle');
+const themeLabel = document.getElementById('themeLabel');
 const body = document.body;
 const header = document.querySelector('header');
 
 themeToggle.addEventListener('change', () => {
-    console.log('Theme toggled:', themeToggle.checked ? 'Light' : 'Dark');
+    themeLabel.textContent = themeToggle.checked ? 'Light' : 'Dark';
     body.classList.toggle('light', themeToggle.checked);
     body.classList.toggle('dark', !themeToggle.checked);
     header.classList.toggle('light', themeToggle.checked);
@@ -20,18 +21,50 @@ document.getElementById('fetchBtn').addEventListener('click', async () => {
 
     try {
         console.log('Fetching RSS feed...');
-        await fetch(url).then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
+
+        const response = await fetch("http://localhost:5149/search?pageIndex=0&pageSize=10");
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+
+        const json = await response.json();
+        console.log('JSON:', json);
+
+        const items = json.data.items;
+        console.log(`Number of items found: ${items.length}`);
+
+        items.forEach(item => {
+            const title = item.title;
+            const link = item.link;
+            console.log('Processing item:', { title, link });
+
+            if (title && link) {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = link;
+                a.textContent = title;
+                a.target = '_blank';
+                li.appendChild(a);
+                feedContainer.appendChild(li);
             }
-
-            var json = JSON.parse(JSON.stringify(response));
-            console.log('JSON:', json);
-
-            
-            
-            return json;
         });
+
+        if (items.length === 0) {
+            console.warn('No items found in the feed.');
+            feedContainer.innerHTML = '<li>No items found in the feed.</li>';
+        }
+        // await fetch("http://localhost:5149/search?pageIndex=0&pageSize=10").then(response => {
+        //     if (!response.ok) {
+        //         throw new Error(`HTTP error! status: ${response.status}`);
+        //     }
+
+            // var json = JSON.parse(response);
+            
+
+            
+            
+            // return json;
+        // });
 
         // console.log('Response status:', response.status);
 
