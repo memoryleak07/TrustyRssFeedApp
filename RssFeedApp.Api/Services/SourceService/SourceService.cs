@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
-using RssFeedApp.Api.Models;
-using Options = RssFeedApp.Api.Models.Options;
+using RssFeedApp.Domain.Models;
+using Options = RssFeedApp.Domain.Models.Options;
 
 namespace RssFeedApp.Api.Services.SourceService;
 

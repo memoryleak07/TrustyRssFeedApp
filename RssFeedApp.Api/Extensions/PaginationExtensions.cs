@@ -1,4 +1,4 @@
-﻿using RssFeedApp.Api.Models.Base;
+﻿using RssFeedApp.Domain.Base;
 
 namespace RssFeedApp.Api.Extensions;
 

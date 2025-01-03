@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Options;
 using Exception = System.Exception;
-using Options = RssFeedApp.Api.Models.Options;
+using Options = RssFeedApp.Domain.Models.Options;
 
 namespace RssFeedApp.Api.Services.FileService;
 

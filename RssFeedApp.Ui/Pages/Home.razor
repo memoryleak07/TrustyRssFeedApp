@@ -1,0 +1,50 @@
+﻿@page "/"
+@using RssFeedApp.Domain.Base
+@using RssFeedApp.Domain.Models
+@inject HttpClient HttpClient
+
+<PageTitle>Home</PageTitle>
+
+@* <label for="rssUrl">Enter Rss feed url</label> *@
+<input type="text" id="rssUrl" placeholder="Enter RSS feed URL" @bind="@_rssUrl">
+<button id="fetchBtn" @onclick="async () => await FetchFeedAsync()">Fetch</button>
+
+@if (_rssFeeds.Any())
+{
+    <ul id="feed">
+        @foreach (var feed in _rssFeeds)
+        {
+            <li>
+                <a href="@feed.Link" target="_blank">@feed.Title</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No feeds found</p>
+}
+
+
+@code {
+    private ICollection<RssFeed> _rssFeeds = [];
+    private string _rssUrl = "http://localhost:5149/search";
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await FetchFeedAsync();
+        }
+    }
+
+    private async Task FetchFeedAsync()
+    {
+        var result = await HttpClient.GetFromJsonAsync<ResultBase<Pagination<RssFeed>>>(_rssUrl);
+        if (result?.Success == true)
+        {
+            _rssFeeds = result.Data?.Items ?? [];
+            StateHasChanged();
+        }
+    }
+}

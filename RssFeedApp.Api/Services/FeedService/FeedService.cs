@@ -1,10 +1,10 @@
 ﻿using System.Text.Json;
 using Microsoft.Extensions.Options;
 using RssFeedApp.Api.Extensions;
-using RssFeedApp.Api.Models;
-using RssFeedApp.Api.Models.Base;
 using RssFeedApp.Api.Services.FileService;
-using Options = RssFeedApp.Api.Models.Options;
+using RssFeedApp.Domain.Base;
+using RssFeedApp.Domain.Models;
+using Options = RssFeedApp.Domain.Models.Options;
 
 namespace RssFeedApp.Api.Services.FeedService;
 

@@ -3,10 +3,10 @@ using System.Text.Json;
 using System.Xml;
 using Microsoft.Extensions.Options;
 using RssFeedApp.Api.Extensions;
-using RssFeedApp.Api.Models;
 using RssFeedApp.Api.Services.FileService;
 using RssFeedApp.Api.Services.SourceService;
-using Options = RssFeedApp.Api.Models.Options;
+using RssFeedApp.Domain.Models;
+using Options = RssFeedApp.Domain.Models.Options;
 
 namespace RssFeedApp.Api.Services.PullTimedService;
 

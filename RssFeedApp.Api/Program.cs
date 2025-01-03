@@ -1,9 +1,9 @@
 using RssFeedApp.Api.Endpoints;
-using RssFeedApp.Api.Models;
 using RssFeedApp.Api.Services.FeedService;
 using RssFeedApp.Api.Services.FileService;
 using RssFeedApp.Api.Services.PullTimedService;
 using RssFeedApp.Api.Services.SourceService;
+using RssFeedApp.Domain.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

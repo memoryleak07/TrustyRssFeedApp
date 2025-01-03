@@ -1,11 +1,9 @@
-﻿namespace RssFeedApp.Api.Models.Base;
+﻿namespace RssFeedApp.Domain.Base;
 
 public class ResultBase<T>
 {
-    public bool Success { get; set; }
-    public string Message { get; set; } = string.Empty;
-    public T? Data { get; set; }
-
+    public ResultBase() { }
+    
     public ResultBase(T data)
     {
         Success = true;
@@ -17,4 +15,8 @@ public class ResultBase<T>
         Success = false;
         Message = exception.Message;
     }
+    
+    public bool Success { get; set; }
+    public string Message { get; set; } = string.Empty;
+    public T? Data { get; set; }
 }

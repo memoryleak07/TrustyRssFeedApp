@@ -1,5 +1,5 @@
 ﻿using System.ServiceModel.Syndication;
-using RssFeedApp.Api.Models;
+using RssFeedApp.Domain.Models;
 
 namespace RssFeedApp.Api.Extensions;
 

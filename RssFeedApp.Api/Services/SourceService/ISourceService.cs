@@ -1,4 +1,4 @@
-﻿using RssFeedApp.Api.Models;
+﻿using RssFeedApp.Domain.Models;
 
 namespace RssFeedApp.Api.Services.SourceService;
 

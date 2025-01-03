@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RssFeedApp.Ui</title>
+    <base href="/" />
+    <link rel="stylesheet" href="css/app.css" />
+    <!-- If you add any scoped CSS files, uncomment the following to load them
+    <link href="RssFeedApp.Ui.styles.css" rel="stylesheet" /> -->
+</head>
+
+<body class="dark">
+    <!-- navbar -->
+    <header class="dark">
+        <h1>Trusty</h1>
+        <div class="theme-switcher">
+            <input type="checkbox" id="themeToggle">
+            <label id="themeLabel" for="themeToggle">Dark</label>
+        </div>
+    </header>
+    <!-- main content -->
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/theme-toggle.js"></script>
+</body>
+
+</html>

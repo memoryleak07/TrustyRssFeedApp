@@ -1,4 +1,4 @@
-﻿namespace RssFeedApp.Api.Models.Base;
+﻿namespace RssFeedApp.Domain.Base;
 
 public class Pagination<T>(int pageSize, int pageIndex, ICollection<T> items)
 {

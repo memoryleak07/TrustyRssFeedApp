@@ -1,6 +1,6 @@
-﻿using RssFeedApp.Api.Models;
-using RssFeedApp.Api.Models.Base;
-using RssFeedApp.Api.Services.FeedService;
+﻿using RssFeedApp.Api.Services.FeedService;
+using RssFeedApp.Domain.Base;
+using RssFeedApp.Domain.Models;
 
 namespace RssFeedApp.Api.Endpoints;
 

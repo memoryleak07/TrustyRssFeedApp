@@ -1,4 +1,4 @@
-﻿namespace RssFeedApp.Api.Models;
+﻿namespace RssFeedApp.Domain.Models;
 
 public class RssFeedItem
 {
