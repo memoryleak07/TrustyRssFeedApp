@@ -6,10 +6,14 @@ namespace RssFeedApp.Api.Endpoints;
 
 public static class FeedEndpoints
 {
-    public static void MapFeedEndpoints(this WebApplication app)
+    public static void MapFeedEndpoints(this IEndpointRouteBuilder endpoints)
     {
-        app.MapGet("/search", async (IFeedService feedServices, string? query, int pageIndex = 0, int pageSize = 10)
-            => Results.Ok(new ResultBase<Pagination<RssFeed>>(await feedServices.Search(query, pageIndex, pageSize))))
+        var api = endpoints.MapGroup("/api/feeds");
+
+        api.MapGet("/search", async (IFeedService feedService, string? query, int pageIndex = 0, int pageSize = 10)
+                => await feedService.Search(query, pageIndex, pageSize))
+            .Produces<Pagination<RssFeed>>()
+            .Produces(StatusCodes.Status404NotFound)
             .WithDescription("Search feeds")
             .WithOpenApi();
     }

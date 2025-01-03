@@ -6,5 +6,5 @@ namespace RssFeedApp.Api.Services.SourceService;
 
 public class SourceService(IOptions<Options> options) : ISourceService
 {
-    public Task<ICollection<Source>> GetSources() => Task.FromResult(options.Value.Sources);
+    public async Task<ICollection<Source>> GetSources() => await Task.FromResult(options.Value.Sources);
 }

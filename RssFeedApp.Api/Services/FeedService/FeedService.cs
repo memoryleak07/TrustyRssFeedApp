@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.Extensions.Options;
 using RssFeedApp.Api.Extensions;
 using RssFeedApp.Api.Services.FileService;
@@ -31,22 +32,27 @@ public class FeedService(
     //     .Where(feed => string.Equals(feed.Tag, tag, StringComparison.CurrentCultureIgnoreCase))
     //     .ToList());
     //
-    public Task<Pagination<RssFeed>> Search(string? query, int pageIndex = 0, int pageSize = 10)
+    public async Task<Results<Ok<Pagination<RssFeed>>, NotFound>> Search(string? query, int pageIndex = 0, int pageSize = 10)
     {
-        var feeds = GetFeedsFromFile();
+        var feeds = await GetFeedsFromFileAsync();
         
         var filteredFeeds = string.IsNullOrEmpty(query)
             ? feeds
             : feeds.Where(feed => feed.Title.Contains(query, StringComparison.CurrentCultureIgnoreCase) ||
                                   feed.Description.Contains(query, StringComparison.CurrentCultureIgnoreCase))
                 .ToList();
-
-        return Task.FromResult(filteredFeeds.ToPagination(pageSize, pageIndex));
+        
+        if (filteredFeeds.Count == 0)
+        {
+            return TypedResults.NotFound();
+        }
+        
+        return TypedResults.Ok(filteredFeeds.ToPagination(pageSize, pageIndex));
     }
     
-    private ICollection<RssFeed> GetFeedsFromFile()
+    private async Task<ICollection<RssFeed>> GetFeedsFromFileAsync()
     {
-        var json = fileService.ReadFileAsync().Result;
+        var json = await fileService.ReadFileAsync();
         if (string.IsNullOrEmpty(json))
         {
             logger.LogError("Feeds file is empty.");

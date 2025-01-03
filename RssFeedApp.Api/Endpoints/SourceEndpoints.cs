@@ -6,10 +6,11 @@ public static class SourceEndpoints
 {
     public static void MapSourceEndpoints(this IEndpointRouteBuilder endpoints)
     {
-        endpoints
-            .MapGet("/sources", async (ISourceService sourceService) => await sourceService.GetSources())
+        var api = endpoints.MapGroup("/api/sources");
+        
+        api.MapGet("/all", async (ISourceService sourceService) => await sourceService.GetSources())
             .Produces<string[]>()
-            .ProducesValidationProblem()
+            .Produces(StatusCodes.Status404NotFound)
             .WithDescription("Get all sources")
             .WithOpenApi();
     }
